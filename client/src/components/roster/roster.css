@@ -18,7 +18,8 @@
 .rosterContainer,
 .theTeamRoster,
 .coachName {
-	flex-flow: column wrap;
+	flex-flow: column;
+	overflow: auto;
 }
 
 .rosterContainer {
