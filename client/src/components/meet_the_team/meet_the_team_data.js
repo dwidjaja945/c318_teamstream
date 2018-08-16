@@ -8,7 +8,7 @@ import danny from '../images/danny.jpeg';
 
 export default [
     {
-        firstName: 'Dylon',
+        firstName: 'Dylan',
         lastName: 'Widjaja',
         title: 'Team Leader',
         position: 'Back-End Developer',
@@ -28,16 +28,16 @@ export default [
     {
         firstName: 'Daniel',
         lastName: 'Donjuan',
-        title: 'Badass',
+        title: 'Developer',
         position: 'Front-End Developer',
-        quote: '"That\'s that she said"',
+        quote: '"That\'s what she said"',
         pic: danny,
         bio: 'https://github.com/ddonjuan'
     },
     {
         firstName: 'Keith',
         lastName: 'Silcock',
-        title: 'Sensei',
+        title: 'Developer',
         position: 'Full-Stack Developer',
         quote: '"What up fam!"',
         pic: keith,
