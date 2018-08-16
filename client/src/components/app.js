@@ -50,8 +50,6 @@ class App extends Component {
         <Route exact path="/" component={EntryPage} />
 
         <Route path="/login_page" component={Login_Page} />
-        {/*<Route path='/login_page' render={routeProps =>*/}
-        {/*<Login_Page {...routeProps} dataPassCallback={this.getDataCallback.bind(this)}/>} />*/}
 
         <Route path="/user_id_pw" component={UserIdPw} />
 
