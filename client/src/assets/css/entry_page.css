@@ -1,0 +1,22 @@
+.entry-page {
+}
+.entry-page.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.entry-page.container .loginLogoContent {
+  padding: 0;
+  padding-top: 5%;
+  width: 25%;
+}
+.entry-page.text {
+  text-align: center;
+  margin-top: 0;
+}
+.entry-page.react-player {
+}
+.entry-page.loginButtons {
+  display: block;
+}
