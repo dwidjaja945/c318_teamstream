@@ -1,134 +1,134 @@
 body {
-	margin: 0;
+  margin: 0;
 }
 
 * {
-	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*************Hamburger Menu***************/
 
 .menuBtn {
-	height: 33px;
-	width: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+  height: 33px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .menuBtn span {
-	height: 3px;
-	width: 27px;
-	margin: 2px;
-	background-color: #1171bb;
-	transition-duration: 0.5s;
+  height: 3px;
+  width: 27px;
+  margin: 2px;
+  background-color: #1171bb;
+  transition-duration: 0.5s;
 }
 
 .menuTop {
-	transform: rotate(225deg) translate(-8px, -5px);
+  transform: rotate(225deg) translate(-8px, -5px);
 }
 
 .menuMiddle {
-	transform: rotate(180deg);
-	opacity: 0;
+  transform: rotate(180deg);
+  opacity: 0;
 }
 
 .menuButtom {
-	transform: rotate(-225deg) translate(-5px, 2px);
+  transform: rotate(-225deg) translate(-5px, 2px);
 }
 
 .hamburgerBtn {
-	position: relative;
+  position: relative;
 }
 
 .hamburgerBullets {
-	width: 45vw;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	z-index: 2;
-	right: -50%;
-	background-color: #e5e8e8;
-	border: 2px solid #dadada;
-	border-radius: 15px 0 0 15px;
-	list-style-type: none;
+  width: 45vw;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  right: -50%;
+  background-color: #e5e8e8;
+  border: 2px solid #dadada;
+  border-radius: 15px 0 0 15px;
+  list-style-type: none;
 }
 
 .hamburger-li {
-	z-index: 3;
-	text-align: center;
-	border: 1px solid #dadada;
-	height: 5vh;
-	line-height: 5vh;
-	font-size: 1.5em;
-	width: 100%;
+  z-index: 3;
+  text-align: center;
+  border: 1px solid #dadada;
+  height: 5vh;
+  line-height: 5vh;
+  font-size: 1.5em;
+  width: 100%;
 }
 .hamburger-li:first-child {
-	border-radius: 15px 0 0 0;
+  border-radius: 15px 0 0 0;
 }
 .hamburger-li:last-child {
-	border-radius: 0 0 0 15px;
+  border-radius: 0 0 0 15px;
 }
 
 .hamburger-li a {
-	text-decoration: none;
-	color: #1171bb;
-	cursor: pointer;
+  text-decoration: none;
+  color: #1171bb;
+  cursor: pointer;
 }
 .toggleCloseHamburgerDiv {
-	position: absolute;
-	width: 110vw;
-	height: 100vh;
-	z-index: 1;
-	left: -90vw;
-	top: -1vh;
+  position: absolute;
+  width: 110vw;
+  height: 100vh;
+  z-index: 1;
+  left: -90vw;
+  top: -1vh;
 }
 
 /***********Toggle Menu***************/
 .toggleMenuBtn {
-	height: 100%;
-	width: 100%;
-	position: relative;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .toggleBullets {
-	z-index: 2;
-	width: 52vw;
-	padding: 0;
-	position: absolute;
-	margin: 0;
-	background-color: #e5e8e8;
-	border: 2px solid #dadada;
-	color: #1171bb;
-	border-radius: 0 15px 15px 0;
-	list-style-type: none;
+  z-index: 2;
+  width: 52vw;
+  padding: 0;
+  position: absolute;
+  margin: 0;
+  background-color: #e5e8e8;
+  border: 2px solid #dadada;
+  color: #1171bb;
+  border-radius: 0 15px 15px 0;
+  list-style-type: none;
 }
 
 .toggle-li {
-	z-index: 3;
-	text-align: center;
-	border: 1px solid #dadada;
-	height: 7vh;
-	line-height: 7vh;
-	font-size: 1.5em;
+  z-index: 3;
+  text-align: center;
+  border: 1px solid #dadada;
+  height: 7vh;
+  line-height: 7vh;
+  font-size: 1.5em;
 }
 .toggle-li:first-child {
-	border-radius: 0 15px 0 0;
+  border-radius: 0 15px 0 0;
 }
 .toggle-li:last-child {
-	border-radius: 0 0 15px 0;
+  border-radius: 0 0 15px 0;
 }
 
 .toggle-li:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 .toggleClosePulloutDiv {
-	position: absolute;
-	width: 110vw;
-	height: 100vh;
-	z-index: 1;
-	top: -1vh;
+  position: absolute;
+  width: 110vw;
+  height: 100vh;
+  z-index: 1;
+  top: -1vh;
 }
 
 /**************Nav Bar***************/
@@ -138,53 +138,53 @@ body {
 .mainTsLogo,
 .burgerMenuContainer,
 .burgerMenu {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainNavBar {
-	height: 5vh;
-	width: 100vw;
-	display: flex;
-	justify-content: space-around;
-	background-color: #ffd200;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffd200;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mainBtn {
-	height: 100%;
-	width: 20%;
+  height: 100%;
+  width: 20%;
 }
 
 .mainBtnImg {
-	height: 35px;
-	padding-top: 4px;
+  height: 35px;
+  padding-top: 4px;
 }
 
 .dropDownBtn {
-	height: 100%;
-	width: 100%;
-	text-align: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .dropDownBtn img {
-	height: 85%;
+  height: 85%;
 }
 
 .mainTsLogo {
-	height: 100%;
-	width: 60%;
+  height: 100%;
+  width: 60%;
 }
 
 .mainNavLogo {
-	height: 65%;
+  height: 65%;
 }
 
 .burgerMenuContainer,
 .burgerMenu {
-	height: 100%;
-	width: 20%;
+  height: 100%;
+  width: 20%;
 }
 
 /***********Login***************/
@@ -192,58 +192,58 @@ body {
 .loginLogoContent,
 .loginButtonContent,
 .loginButtons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loginContainer,
 .loginButtonContent {
-	flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 .loginContainer {
-	height: 100vh;
-	width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .loginLogoContent {
-	height: 50%;
-	width: 100%;
-	margin: 0;
-	padding-top: 40%;
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding-top: 40%;
 }
 
 .loginTeamLogo {
-	width: 45%;
+  width: 45%;
 }
 
 .loginButtonContent {
-	height: 50%;
-	width: 100%;
-	margin: 0;
-	padding-bottom: 16%;
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 16%;
 }
 
 .loginButtons {
-	height: 14%;
-	width: 24%;
-	margin: 17px;
-	border-radius: 8px;
-	background-color: #1171bb;
-	color: white;
-	text-decoration: none;
-	font-size: 17px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 14%;
+  width: 24%;
+  margin: 17px;
+  border-radius: 8px;
+  background-color: #1171bb;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .loginButtons:hover {
-	background-color: #dadada;
-	color: #000000;
+  background-color: #dadada;
+  color: #000000;
 }
 
 .desktopText {
-	display: none;
+  display: none;
 }
 
 @media only screen and (min-width: 425px) {
@@ -277,159 +277,159 @@ body {
 .profilePic,
 .profileName,
 .statsContained {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profileTitleContent,
 .bioTitleContainer,
 .statsTitleContainer,
 .profileEdit {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profileContainer {
-	height: 100vh;
-	width: 100vw;
-	flex-flow: column wrap;
+  height: 100vh;
+  width: 100vw;
+  flex-flow: column wrap;
 }
 
 .profile {
-	width: 100%;
-	margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .profileTitleContent {
-	height: 10%;
-	position: relative;
-	background-color: #dadada;
-	border-radius: 5px;
+  height: 10%;
+  position: relative;
+  background-color: #dadada;
+  border-radius: 5px;
 }
 
 .profileTitleHeader {
-	position: absolute;
-	font-size: 38px;
-	font-weight: bold;
+  position: absolute;
+  font-size: 38px;
+  font-weight: bold;
 }
 
 .profilePic {
-	height: 30%;
+  height: 30%;
 }
 
 .athPic {
-	margin: 0;
-	height: 80%;
+  margin: 0;
+  height: 80%;
 }
 
 .profileInfo {
-	height: 50%;
-	display: flex;
-	flex-flow: column wrap;
+  height: 50%;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .profileName {
-	height: 10%;
-	width: 100%;
-	background-color: #1171bb;
-	border-radius: 2px;
+  height: 10%;
+  width: 100%;
+  background-color: #1171bb;
+  border-radius: 2px;
 }
 
 .athleteName {
-	font-size: 1.85em;
-	color: white;
+  font-size: 1.85em;
+  color: white;
 }
 
 .profileBio {
-	height: 30%;
-	width: 100%;
-	display: flex;
-	flex-flow: column wrap;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .bioTitleContainer {
-	height: 30%;
-	width: 100%;
-	background-color: #dadada;
-	border-radius: 5px;
-	position: relative;
+  height: 30%;
+  width: 100%;
+  background-color: #dadada;
+  border-radius: 5px;
+  position: relative;
 }
 
 .profileBioTitle {
-	font-weight: bold;
-	font-size: 1.62em;
-	position: absolute;
-	left: 5px;
-	top: 3px;
+  font-weight: bold;
+  font-size: 1.62em;
+  position: absolute;
+  left: 5px;
+  top: 3px;
 }
 
 .profileBioInfo {
-	height: 70%;
-	width: 100%;
-	padding: 10px;
-	font-size: 1.5em;
-	overflow: auto;
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+  overflow: auto;
 }
 
 .profileStats {
-	height: 60%;
-	width: 100%;
-	display: flex;
-	flex-flow: column wrap;
-	overflow: auto;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  overflow: auto;
 }
 
 .statsTitleContainer {
-	height: 15%;
-	width: 100%;
-	background-color: #dadada;
-	border-radius: 5px;
-	position: relative;
+  height: 15%;
+  width: 100%;
+  background-color: #dadada;
+  border-radius: 5px;
+  position: relative;
 }
 
 .profileStatsTitle {
-	font-weight: bold;
-	font-size: 1.62em;
-	position: absolute;
-	left: 5px;
-	top: 3px;
+  font-weight: bold;
+  font-size: 1.62em;
+  position: absolute;
+  left: 5px;
+  top: 3px;
 }
 
 .statsContained {
-	height: 72%;
-	width: 100%;
-	flex-flow: column wrap;
-	overflow: auto;
+  height: 72%;
+  width: 100%;
+  flex-flow: column wrap;
+  overflow: auto;
 }
 
 .profileStatsInfo {
-	height: 23%;
-	width: 100%;
-	padding: 10px;
-	font-size: 1.5em;
+  height: 23%;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
 }
 
 .profileFooter {
-	height: 5%;
-	width: 100%;
-	position: relative;
+  height: 5%;
+  width: 100%;
+  position: relative;
 }
 
 .profileEdit {
-	position: absolute;
-	padding: 12px;
-	left: 50%;
-	border-radius: 7px;
-	bottom: 40%;
-	background-color: #1171bb;
-	color: white;
-	transform: translate(-50%, 0);
-	text-decoration: none;
+  position: absolute;
+  padding: 12px;
+  left: 50%;
+  border-radius: 7px;
+  bottom: 40%;
+  background-color: #1171bb;
+  color: white;
+  transform: translate(-50%, 0);
+  text-decoration: none;
 }
 
 .profileEdit:hover {
-	background-color: #dadada;
-	color: #000000;
+  background-color: #dadada;
+  color: #000000;
 }
 
 @media only screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -539,44 +539,44 @@ body {
 
 /**********fork Nav************/
 .forkContainer {
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .forkButtonContent {
-	height: 95%;
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
+  height: 95%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .forkButtons {
-	height: 7%;
-	width: 80%;
-	margin: 18px;
-	border-radius: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #1171bb;
-	color: white;
-	text-decoration: none;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 7%;
+  width: 80%;
+  margin: 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1171bb;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .forkButtons:hover {
-	background-color: #dadada;
-	color: #000000;
+  background-color: #dadada;
+  color: #000000;
 }
 
 .btnFork {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 /***********Create Team***********/
@@ -586,106 +586,106 @@ body {
 .createTeamInfo,
 .cGNumberContainer,
 .cGbtnContent {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .createTeamContainer,
 .cTCodeGenerator,
 .createTeamInfo,
 .cGContent {
-	flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 .teamName,
 .cGNumberContainer,
 .cGbtnCode,
 .cGbtnLog {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .teamName,
 .cGbtnCode,
 .cGbtnLog {
-	background-color: #1171bb;
-	color: white;
+  background-color: #1171bb;
+  color: white;
 }
 
 .createTeamContainer {
-	height: 100vh;
-	width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .cTCodeGenerator {
-	height: 95%;
-	width: 100%;
+  height: 95%;
+  width: 100%;
 }
 
 .createTeamName {
-	height: 10%;
-	width: 100%;
+  height: 10%;
+  width: 100%;
 }
 
 .teamName {
-	font-size: 25px;
-	text-align: center;
-	padding: 15px;
-	border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
 }
 .teamName::placeholder {
-	color: white;
+  color: white;
 }
 
 .createTeamInfo {
-	height: 30%;
-	width: 100%;
+  height: 30%;
+  width: 100%;
 }
 
 .createTeamInfo textarea {
-	text-align: center;
-	font-size: 15px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .cGContent {
-	height: 35%;
-	width: 100%;
-	display: flex;
-	align-items: center;
+  height: 35%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .cGNumberContainer {
-	height: 15%;
-	width: 40%;
-	border: 2px solid grey;
-	margin: 10px;
+  height: 15%;
+  width: 40%;
+  border: 2px solid grey;
+  margin: 10px;
 }
 
 .cGbtnContent {
-	height: 28%;
-	width: 30%;
+  height: 28%;
+  width: 30%;
 }
 
 .cGbtnCode {
-	height: 10%;
-	width: 100%;
-	border-radius: 7px;
-	padding: 4%;
-	font-size: 15px;
+  height: 10%;
+  width: 100%;
+  border-radius: 7px;
+  padding: 4%;
+  font-size: 15px;
 }
 
 .cGbtnLog {
-	height: 65%;
-	width: 70%;
-	border-radius: 7px;
-	padding: 10%;
-	font-size: 15px;
+  height: 65%;
+  width: 70%;
+  border-radius: 7px;
+  padding: 10%;
+  font-size: 15px;
 }
 
 .cGbtnCode:hover,
 .cGbtnLog:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 /**********Join Team*************/
@@ -694,85 +694,85 @@ body {
 .jTteamCode,
 .jTcodeNum,
 .jTcodeBtn {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jTteamCode,
 .codeNum,
 .jTcodeBtn {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .joinTeamPage,
 .joinTeamContainer,
 .jTcodeNum {
-	flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 .joinTeamPage {
-	height: 100vh;
-	width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .navBackArrow {
-	height: 5%;
+  height: 5%;
 }
 
 .joinTeamContainer {
-	height: 95%;
-	width: 100%;
+  height: 95%;
+  width: 100%;
 }
 
 .jTteamCode {
-	height: 11%;
-	width: 72%;
-	position: relative;
-	top: 10%;
-	border-radius: 5px;
-	background-color: #1171bb;
-	margin: 30px;
+  height: 11%;
+  width: 72%;
+  position: relative;
+  top: 10%;
+  border-radius: 5px;
+  background-color: #1171bb;
+  margin: 30px;
 }
 
 .teamCodeTitle {
-	font-size: 40px;
-	color: white;
+  font-size: 40px;
+  color: white;
 }
 
 .jTcodeNum {
-	height: 60%;
-	width: 60%;
-	margin: 50px;
+  height: 60%;
+  width: 60%;
+  margin: 50px;
 }
 
 .codeNum {
-	border: 2px solid grey;
-	height: 20%;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	border-radius: 5px;
-	text-align: center;
-	margin: 15px;
-	padding: 10px;
+  border: 2px solid grey;
+  height: 20%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
 }
 
 .jTcodeBtn {
-	height: 12%;
-	width: 40%;
-	background-color: #1171bb;
-	color: white;
-	border-radius: 7px;
-	margin: 50px;
+  height: 12%;
+  width: 40%;
+  background-color: #1171bb;
+  color: white;
+  border-radius: 7px;
+  margin: 50px;
 }
 
 .jTcodeBtn:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 .codeBtn {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 /***********login_page***********/
@@ -780,147 +780,147 @@ body {
 .teamLogoImg,
 .loginForm,
 .loginBtnContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loginInfoContainer,
 .loginForm {
-	flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 .loginInfoContainer {
-	height: 100vh;
-	width: 100vw;
-	margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
 }
 
 .teamLogoImg {
-	height: 40%;
-	width: 100%;
+  height: 40%;
+  width: 100%;
 }
 
 .logoImg {
-	height: 15%;
+  height: 15%;
 }
 
 .loginForm {
-	height: 55%;
-	width: 100%;
+  height: 55%;
+  width: 100%;
 }
 
 .userNameLine,
 .passwordLine {
-	font-size: 22px;
-	padding: 8px;
-	color: grey;
-	width: 80vw;
-	display: flex;
-	justify-content: space-between;
+  font-size: 22px;
+  padding: 8px;
+  color: grey;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .userNameLine input,
 .passwordLine input {
-	font-size: 16px;
-	padding: 8px;
-	background-color: rgba(205, 205, 218, 0.3);
+  font-size: 16px;
+  padding: 8px;
+  background-color: rgba(205, 205, 218, 0.3);
 }
 
 .loginBtnContainer {
-	height: 55%;
+  height: 55%;
 }
 
 .loginBtn {
-	height: 20%;
-	width: 100%;
-	padding: 10px;
-	border-radius: 7px;
-	color: white;
-	background-color: #1171bb;
-	font-size: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 20%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: #1171bb;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .loginBtn:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 /***********Create User ID and PW*************/
 .createLogo {
-	height: 38vh;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 38vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .createLogoImg {
-	height: 15%;
+  height: 15%;
 }
 
 .userSignUpContainer {
-	height: 30vh;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column wrap;
-	color: grey;
-	font-size: 18px;
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  color: grey;
+  font-size: 18px;
 }
 
 .userSignUpContainer > div {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
 }
 
 .userSignUpContainer input {
-	padding: 8px;
-	font-size: 16px;
-	text-align: left;
-	background-color: rgba(205, 205, 218, 0.3);
+  padding: 8px;
+  font-size: 16px;
+  text-align: left;
+  background-color: rgba(205, 205, 218, 0.3);
 }
 
 .signUpInput {
-	margin: 5px;
+  margin: 5px;
 }
 
 .signUpButton {
-	height: 40px;
-	width: 66px;
-	border-radius: 7px;
-	font-size: 15px;
-	background-color: #1171bb;
-	color: white;
-	margin-top: 25px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 40px;
+  width: 66px;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: #1171bb;
+  color: white;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .signUpButton:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 @media only screen and (max-width: 375px) {
-	.createLogo {
-		height: 40vh;
-	}
+  .createLogo {
+    height: 40vh;
+  }
 
-	.userSignUpContainer {
-		height: 45vh;
-	}
+  .userSignUpContainer {
+    height: 45vh;
+  }
 }
 
 /********Create & Edit Profile**********/
 .createAthleteBtn,
 .createJoinTeamButtons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .createAthHeader,
@@ -928,193 +928,193 @@ body {
 .createAthleteBtnSub,
 .createAthleteBtnSubmit,
 .createAthleteBtnCancel {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .createAth {
-	height: 70vh;
-	width: 100vw;
-	display: flex;
-	flex-flow: column wrap;
-	position: relative;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
 }
 
 .createAthHeader {
-	height: 10%;
-	width: 100%;
-	padding: 10px;
-	text-align: center;
-	background-color: #ffd200;
-	border-radius: 7px;
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffd200;
+  border-radius: 7px;
 }
 
 .createFieldsDepth {
-	width: 90%;
-	margin-left: 19px;
-	border-radius: 12px;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	overflow-y: scroll;
+  width: 90%;
+  margin-left: 19px;
+  border-radius: 12px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow-y: scroll;
 }
 
 .createFieldsDepth > div {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .createAth label {
-	font-size: 1.3em;
-	margin-left: 18px;
-	color: grey;
+  font-size: 1.3em;
+  margin-left: 18px;
+  color: grey;
 }
 
 .createFields {
-	margin: 8px;
-	font-size: 1.3em;
-	background-color: #dadada47;
+  margin: 8px;
+  font-size: 1.3em;
+  background-color: #dadada47;
 }
 
 .createAthleteBtn {
-	height: 15vh;
-	width: 100vw;
+  height: 15vh;
+  width: 100vw;
 }
 
 .createAthleteBtnSub {
-	height: 35%;
-	width: 26%;
-	margin: 7%;
-	border-radius: 7px;
-	background-color: #1171bb;
-	color: white;
-	font-size: 14px;
+  height: 35%;
+  width: 26%;
+  margin: 7%;
+  border-radius: 7px;
+  background-color: #1171bb;
+  color: white;
+  font-size: 14px;
 }
 
 .createAthleteBtnSubmit {
-	height: 35%;
-	width: 20%;
-	margin: 4%;
-	border-radius: 7px;
-	background-color: #10a05f;
-	color: white;
-	font-size: 14px;
+  height: 35%;
+  width: 20%;
+  margin: 4%;
+  border-radius: 7px;
+  background-color: #10a05f;
+  color: white;
+  font-size: 14px;
 }
 
 .createAthleteBtnCancel {
-	height: 35%;
-	width: 20%;
-	margin: 4%;
-	border-radius: 7px;
-	background-color: #bb113f;
-	color: white;
-	font-size: 14px;
+  height: 35%;
+  width: 20%;
+  margin: 4%;
+  border-radius: 7px;
+  background-color: #bb113f;
+  color: white;
+  font-size: 14px;
 }
 
 .createAthleteBtnSub:hover,
 .createAthleteBtnSubmit:hover,
 .createAthleteBtnCancel:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 .createJoinTeamButtons {
-	height: 15vh;
-	width: 100vw;
-	text-align: center;
+  height: 15vh;
+  width: 100vw;
+  text-align: center;
 }
 .joinTeamLogo {
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 @media only screen and (max-width: 375px) {
-	.createAth {
-		height: 70vh;
-		width: 100vw;
-	}
+  .createAth {
+    height: 70vh;
+    width: 100vw;
+  }
 
-	.createAthHeader {
-		padding: 10px;
-	}
+  .createAthHeader {
+    padding: 10px;
+  }
 
-	.createFieldsDepth {
-		height: 75%;
-		width: 90%;
-		font-size: 14px;
-	}
+  .createFieldsDepth {
+    height: 75%;
+    width: 90%;
+    font-size: 14px;
+  }
 
-	.statsBox {
-		width: 80vw;
-	}
+  .statsBox {
+    width: 80vw;
+  }
 
-	.createAthleteBtnSub {
-		height: 40%;
-	}
+  .createAthleteBtnSub {
+    height: 40%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-	.createAthHeader {
-		padding: 2px;
-	}
+  .createAthHeader {
+    padding: 2px;
+  }
 
-	.createFieldsDepth {
-		height: 79%;
-		font-size: 12px;
-	}
+  .createFieldsDepth {
+    height: 79%;
+    font-size: 12px;
+  }
 
-	.createAthleteBtnSub {
-		height: 42%;
-	}
+  .createAthleteBtnSub {
+    height: 42%;
+  }
 }
 
 /********Edit Profile (ADD NEW INPUTS COMPONENT)************/
 .statsBox {
-	height: 10vh;
-	width: 90vw;
+  height: 10vh;
+  width: 90vw;
 }
 
 .customAthInputs {
-	height: 5vh;
-	width: 90vw;
-	display: flex;
+  height: 5vh;
+  width: 90vw;
+  display: flex;
 }
 
 .statNameInput {
-	width: 85%;
-	color: grey;
-	font-size: 20px;
+  width: 85%;
+  color: grey;
+  font-size: 20px;
 }
 
 .statValueInput {
-	width: 65%;
-	font-size: 1.3em;
+  width: 65%;
+  font-size: 1.3em;
 }
 
 .addStatsButton {
-	border-radius: 7px;
-	background-color: #1171bb;
-	color: white;
-	font-weight: bold;
-	font-size: 15px;
+  border-radius: 7px;
+  background-color: #1171bb;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .addStatsButton:hover {
-	color: #000000;
-	background-color: #dadada;
+  color: #000000;
+  background-color: #dadada;
 }
 
 /*************Error handling for sign-up*************/
 .error-header {
-	color: red;
-	text-align: center;
+  color: red;
+  text-align: center;
 }
 .error-body,
 .error-cancel {
-	text-align: center;
+  text-align: center;
 }
 .error-cancel {
-	position: relative;
-	left: 50%;
-	transform: translate(-75%, 0);
+  position: relative;
+  left: 50%;
+  transform: translate(-75%, 0);
 }
